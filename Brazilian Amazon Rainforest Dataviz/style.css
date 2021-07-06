@@ -4,13 +4,18 @@
 
 body {
   font-family: Garamond , serif;
+  background: url(https://i.pinimg.com/originals/f5/a9/c9/f5a9c92d54fcb462b8eb58f44fb6c0ef.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+ 
 }
 
 header {
   padding: 24px;
   position: sticky;
   top: 0;
-  width: 100%;
   height: 100px;
   background: rgba(255, 255, 255, 0.6);
 }
@@ -22,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-  color: orangered;
+  color: green;
 }
 
 section {
@@ -31,19 +36,23 @@ section {
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 #section-1 {
-  background: brown;
+background: rgba(255, 255, 255, 0.6);
 }
 
 #section-2 {
-  background: gold;
+background: rgba(255, 255, 255, 0.6);
 }
 
 #section-3 {
-  background: palegreen;
+background: rgba(255, 255, 255, 0.6);
+}
+
+#section-4 {
+background: rgba(255, 255, 255, 0.6);
 }
 
 div {
