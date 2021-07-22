@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Brazilian Rainforest Degredation</title>
+  <title>Brazilian Rainforest Degredation</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -18,54 +18,96 @@
   
   <header id="header-background">
     <div class="logo"> </div>
-    <h1>Brazillian Rainforest Deforestation</h1>
+    <h1>Brazilian Rainforest Deforestation</h1>
     <nav>
-      <a href="#section-1">Deforestation by Year</a>
-      <a href="#section-2">Deforestation Over Time</a>
-      <a href="#section-3">Total Deforestation</a>
-      <a href="#section-4">Comparison with Bodies of Land</a>
-      <a href="#section-5">Major Causes</a>
-      <a href="#section-6">Brazilian Exports</a>
-      <a href="#section-7">Section 7</a>
+      <a href="#section-1">Introduction</a>
+      <a href="#section-2">Deforestation by Year</a>
+      <a href="#section-3">Deforestation Over Time</a>
+      <a href="#section-4">Total Deforestation</a>
+      <a href="#section-5">Comparison with Bodies of Land</a>
+      <a href="#section-6">Major Causes</a>
+      <a href="#section-7">Brazilian Exports</a>
+      <a href="#section-8">Section 7</a>
     </nav>
   </header>
 
   <main>
-    
 
 <!-- Section 1 Start -->
     <section id="section-1">
       <div>
-      <h2> Brazilian Amazon Rainforest Deforestation</h2>
-          <p>The Brazil Amazon Rainforest has been experiencing deforestation since <br>
-            the 1960s. It reached a peak high on 2004, and an effort to Reduce Emission <br>
-            from Deforestation and Forest Degradation (REDD+) was proposed in 2005. 
+      <h2> Introduction</h2>
+          <p>
+	    Brazil hosts the largest Tropical Rain forest in the world with 30% of the <br>
+	    world tropical forests residing within it. The country with the second largest <br>
+            portion, Congo, only has 8% of the world's tropical forest. The Amazon Rain Forest <br>
+	    is home to a diverse ecosystem which is important to local communities as well as <br>
+	    the wider ecosystems and climate around the world. While it is an integral part of <br>
+            a global ecosystem, it is at risk of degradation due to deforestation over time.
         </p>
+	<p>Credit: <a href="https://earthobservatory.nasa.gov/images/145888/making-sense-of-amazon-deforestation-patterns">Making Sense of Amazon Deforestation Patterns by Earth Observatory NASA</a></p>
       </div>  
-      <iframe width="600" height="453.203125" frameborder="0"
-  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=brazilrf_def_chart"></iframe>
+	<img src="https://snipboard.io/zdmcKb.jpg" alt="Brazilian Amazon Rain Forest 2000 - 2010">>
+	
+
     </section>
 <!-- Section 1 end -->
 
 
 <!-- Section 2 Start -->
-     <section id="section-2">
+    <section id="section-2">
       <div>
-      <h2> Deforestation Over Time</h2>
-          <p> While REDD+ proved to help reduce deforestation in Brazil, there has <br>
-            been an increase in deforested area starting 2013. From 2012 to 2020 <br>
-            deforested area has increased by 114%.
+      <h2> Deforestation by Year</h2>
+          <p>The Brazil Amazon Rainforest has been experiencing deforestation since <br>
+            the 1960s. It reached a peak high on 2004, and an effort to Reduce Emission <br>
+            from Deforestation and Forest Degradation (REDD+) was proposed in 2005. 
         </p>
-      </div>
-<iframe width="700" height="750" frameborder="0"
-  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=viewof+year%2Cbrazilrf_def_state%2Cbrazil_def_geo"></iframe>
-    </section>
-<!-- Section 2 End -->
+      </div>  
 
+	<div id="observablehq-brazilrf_def_chart-81cab98e"></div>
+	<script type="module">
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	import define from "https://api.observablehq.com/d/bde65e52e9d64ac6.js?v=3";
+	new Runtime().module(define, name => {
+	  if (name === "brazilrf_def_chart") return new Inspector(document.querySelector("#observablehq-brazilrf_def_chart-81cab98e"));
+	});
+	</script>
+
+    </section>
+<!-- Section 2 end -->
 
 
 <!-- Section 3 Start -->
-    <section id="section-3">
+     <section id="section-3">
+      <div>
+      <h2> Deforestation Over Time</h2>
+          <p> While REDD+ proved to help reduce deforestation in Brazil in the short <br>
+	      term, there has been an increase in deforested area starting 2013. From <br>
+	      2012 to 2020 deforested area has increased by 114%.
+        </p>
+      </div>
+	<div>
+		<div id="observablehq-viewof-year-6c041b8e"></div><br>
+		<div id="observablehq-brazil_def_geo-6c041b8e"></div><br>
+		<div id="observablehq-brazilrf_def_state-6c041b8e"></div><br>
+	</div>
+	<script type="module">
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	import define from "https://api.observablehq.com/d/bde65e52e9d64ac6.js?v=3";
+	new Runtime().module(define, name => {
+	  if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-6c041b8e"));
+	  if (name === "brazil_def_geo") return new Inspector(document.querySelector("#observablehq-brazil_def_geo-6c041b8e"));
+	  if (name === "brazilrf_def_state") return new Inspector(document.querySelector("#observablehq-brazilrf_def_state-6c041b8e"));
+	});
+	</script>
+
+    </section>
+<!-- Section 3 End -->
+
+
+
+<!-- Section 4 Start -->
+    <section id="section-4">
       <div>
       <h2> Total Deforestation</h2>
           <p> Within the last 16 years, a total of 171,223 km² of the Brazillian Amazon<br>
@@ -74,13 +116,15 @@
 	      as well as the state of Florida. 
         </p>
       </div>
-	<iframe width="608" height="484" frameborder="0"
-	  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=bubble_chart"></iframe>
-    </section>
-<!-- Section 3 end -->
 
-<!-- Section 4 Start -->
-    <section id="section-4">
+<iframe width="400" height="484" frameborder="0"
+  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=bubble_chart"></iframe>
+
+    </section>
+<!-- Section 4 end -->
+
+<!-- Section 5 Start -->
+    <section id="section-5">
       <div>
       <h2> Comparison with Similar <br>Sized Bodies of Land</h2>
 	<p>Total Deforesation (2004 - 2020): 171,223 km²</p>
@@ -95,29 +139,52 @@
 
 	<iframe width="410" height="855" frameborder="0"
   	src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=florida_geo%2Ccambodia_geo"></iframe>
-    </section>
-<!-- Section 4 end -->
 
-<!-- Section 5 Start -->
-    <section id="section-5">
+    </section>
+<!-- Section 6 end -->
+
+<!-- Section 6 Start -->
+    <section id="section-6">
       <div>
       <h2> Major Causes of Brazillian <br> Amazon Rainforest Degredation</h2>
-	<p>Include graph showing main causes</p>
+	<p> The main causes that lead to deforestation in the Brazillian Amazon <br> 
+	Rainforest are stated as agricultural expansion, wood extraction, and <br>
+	infrastructure expansion by 
+	<a style="white-space:nowrap;" href="https://earthobservatory.nasa.gov/features/Deforestation/deforestation_update3.php">NASA</a>.
+	</p>
+	<p> 
+	Among the major causes, agricutlure is the highest contributor as <br>
+	a frequently used method to clear land to plant crops and raise livestock <br>
+	is to burn parts of the forest. This method is referred to as the Slash-and-Burn<br>
+	method.	Major fires data collected by the National Institute for Space <br>
+	Research
+	<a style="white-space:nowrap;" href="https://www.kaggle.com/mbogernetto/brazilian-amazon-rainforest-degradation?select=inpe_brazilian_amazon_fires_1999_2019.csv">(INPE)</a> 
+	can be linked to deforested area over time.<br>
+	</p>
 
       </div>
 	
-	<iframe width="400" height="485" frameborder="0"
-	  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=bubble_chart"></iframe>
+	<div id="observablehq-fire_def_chart-ae793d58"></div>
+
+	<script type="module">
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	import define from "https://api.observablehq.com/d/bde65e52e9d64ac6.js?v=3";
+	new Runtime().module(define, name => {
+	  if (name === "fire_def_chart") return new Inspector(document.querySelector("#observablehq-fire_def_chart-ae793d58"));
+	});
+	</script>
 
     </section>
-<!-- Section 5 end -->
+<!-- Section 6 end -->
 
 
-<!-- Section 6 Start -->
-<div id="section-6">
+<!-- Section 7 Start -->
+<div id="section-7">
 <div id="exports_header" style="width: 100%; height: 15%;">
     <h1> Brazil Exports and Deforestation </h1>
     <p>In this section, we would like to explore which products that are exported from Brazil may be associated with the deforestation of Brazilian rainforests. For this purpose, we are looking at the <a style="white-space:nowrap;" href="https://www.kaggle.com/mbogernetto/brazilian-amazon-rainforest-degradation?select=def_area_2004_2019.csv">deforestation rates from Kaggle</a> and the <a style="white-space:nowrap;" href="http://www.fao.org/faostat/en/#data/TP/metadata">export trade data from the Food and Agriculture Organization of the United Nations</a>. By comparing the trends in these data, we hope to provide guidance for experiments or regulations that are targeted at combatting the deforestation problem.</p>
+    <p>Our main goal in this section is to allow users to explore the data themselves and determine which products may be key factors in the deforestation problem. Generally, we think that products like soybeans, with a high amount of total exported tonnes between and a high correlation between annual export rates and deforestation rates are the most likely to have a high impact on the deforestation problem. These export products would be to the top and right of the first plot.</p>
+    <p>To help you navigate the data, we have included a multi-select for filtering the data points by product. You can hold Ctrl (Cmd on Mac) and click to select multiple export products at once. Additionally, all three plots display tooltips when you hover the cursor over specific data points.</p>
 </div>
 <div id="exports_details" style="width: 100%; height: 85vh; padding: 0; white-space: nowrap;">
     <div id="export_selection" style="width: 15%; height: 100%; float: left;">
@@ -484,10 +551,10 @@
 </script>
     </div>
     
-<!-- Section 6 End-->
+<!-- Section 7 End-->
 
-<!-- Section 7 Start -->
-    <section id="section-7">
+<!-- Section 8 Start -->
+    <section id="section-8">
             <div>
       <h2> Brazil Soy Production </h2>
           <p>Brazil is the world leading producer of Soybean with steady <br>
@@ -499,7 +566,7 @@
 <iframe width="50%" height="50%" frameborder="0"
   src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=brazil_soy_plot"></iframe>   
     </section>
-<!-- Section 7 End -->   
+<!-- Section 8 End -->   
   </main>
 </div>
 <!-- partial -->
