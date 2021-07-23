@@ -2,8 +2,8 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Brazilian Rainforest Degredation</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Brazilian Rainforest Deforestation</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
 </head>
 <body>
@@ -25,9 +25,10 @@
       <a href="#section-3">Deforestation Over Time</a>
       <a href="#section-4">Total Deforestation</a>
       <a href="#section-5">Comparison with Bodies of Land</a>
-      <a href="#section-6">Major Causes</a>
-      <a href="#section-7">Brazilian Exports</a>
-      <a href="#section-8">Section 7</a>
+      <a href="#section-6">Causes and Impacts</a>
+      <a href="#section-7">Agriculture and Fires</a>
+      <a href="#section-8">Soy Beans as an Export</a>
+      <a href="#section-9">Explore Exports</a>
     </nav>
   </header>
 
@@ -62,8 +63,7 @@
             the 1960s. It reached a peak high on 2004, and an effort to Reduce Emission <br>
             from Deforestation and Forest Degradation (REDD+) was proposed in 2005. 
         </p>
-      </div>  
-
+      </div>
 	<div id="observablehq-brazilrf_def_chart-81cab98e"></div>
 	<script type="module">
 	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -87,6 +87,7 @@
         </p>
       </div>
 	<div>
+		<label for="observablehq-viewof-year-6c041b8e">Press Play or Drag Slider<br></label>
 		<div id="observablehq-viewof-year-6c041b8e"></div><br>
 		<div id="observablehq-brazil_def_geo-6c041b8e"></div><br>
 		<div id="observablehq-brazilrf_def_state-6c041b8e"></div><br>
@@ -141,53 +142,99 @@
   	src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=florida_geo%2Ccambodia_geo"></iframe>
 
     </section>
-<!-- Section 6 end -->
+<!-- Section 5 end -->
 
 <!-- Section 6 Start -->
     <section id="section-6">
       <div>
-      <h2> Major Causes of Brazillian <br> Amazon Rainforest Degredation</h2>
+      <h2> Major Causes and Impact of Brazillian <br> Amazon Rainforest Degredation</h2>
 	<p> The main causes that lead to deforestation in the Brazillian Amazon <br> 
 	Rainforest are stated as agricultural expansion, wood extraction, and <br>
 	infrastructure expansion by 
 	<a style="white-space:nowrap;" href="https://earthobservatory.nasa.gov/features/Deforestation/deforestation_update3.php">NASA</a>.
 	</p>
-	<p> 
-	Among the major causes, agricutlure is the highest contributor as <br>
-	a frequently used method to clear land to plant crops and raise livestock <br>
-	is to burn parts of the forest. This method is referred to as the Slash-and-Burn<br>
-	method.	Major fires data collected by the National Institute for Space <br>
-	Research
-	<a style="white-space:nowrap;" href="https://www.kaggle.com/mbogernetto/brazilian-amazon-rainforest-degradation?select=inpe_brazilian_amazon_fires_1999_2019.csv">(INPE)</a> 
-	can be linked to deforested area over time.<br>
+
+	<p>
+	Among the major causes, agriculture is the highest contributor. In <br>
+	comparison with other factors, Land-Use stands out. It is a good <br>
+	example of the REDD+ policy in action as after its proposal, a <br>
+	drastic decline in Land-Use is show cased. When included it within <br>
+	total GHG emission metric it seems as if Brazil does not have an <br>
+	issue with GHG emissions. 
 	</p>
-
+	<p>
+	However, when we exclude Land-Use, Agricultre can be highlighted <br>
+	as the highest contributer which has beeen steadily growing. This <br>
+	also fits in line with the deforested area growth.
+	</p>
       </div>
-	
-	<div id="observablehq-fire_def_chart-ae793d58"></div>
+	<div id="observablehq-ghg_comp_chart-688aef9d"></div>
 
+	
 	<script type="module">
 	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 	import define from "https://api.observablehq.com/d/bde65e52e9d64ac6.js?v=3";
 	new Runtime().module(define, name => {
-	  if (name === "fire_def_chart") return new Inspector(document.querySelector("#observablehq-fire_def_chart-ae793d58"));
+	  if (name === "ghg_comp_chart") return new Inspector(document.querySelector("#observablehq-ghg_comp_chart-688aef9d"));
 	});
 	</script>
 
     </section>
 <!-- Section 6 end -->
 
-
 <!-- Section 7 Start -->
-<div id="section-7">
+    <section id="section-7">
+      <div>
+      <h2> Agriculture and Fires</h2>
+	<p> 
+	Agricutlure as a contributor is concerning due to a frequent method used <br>
+	to clear land to plant crops and raise livestock is to burn parts of <br>
+	the forest. This method is referred to as the Slash-and-Burn method. <br>
+	Major fires data collected by the National Institute for Space Research <br>
+	<a style="white-space:nowrap;" href="https://www.kaggle.com/mbogernetto/brazilian-amazon-rainforest-degradation?select=inpe_brazilian_amazon_fires_1999_2019.csv">(INPE)</a> 
+	can be linked to deforested area over time.<br>
+	</p>
+     </div>
+	
+	<div id="observablehq-fire_def_chart-79f4bcbb"></div><br>
+
+	<script type="module">
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	import define from "https://api.observablehq.com/d/bde65e52e9d64ac6.js?v=3";
+	new Runtime().module(define, name => {
+	  if (name === "fire_def_chart") return new Inspector(document.querySelector("#observablehq-fire_def_chart-79f4bcbb"));
+	});
+	</script>
+    </section>
+<!-- Section 7 end -->
+
+<!-- Section 8 Start -->
+    <section id="section-8">
+	<div>
+	<h2> Soy Beans as an Export </h2>
+      	<p>Brazil is the world leading producer of Soybean with steady <br>
+        production increase in the past few decades. The world's demand <br>
+        for Soybean is increasing leading to increase in deforestation <br>
+	rates due to dangerous farming methods, namely Slash-and-Burn.
+        </p>
+        </div>
+
+	<iframe width="40%" height="60%" frameborder="0"
+	  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=brazil_soy_plot"></iframe>
+
+    </section>
+<!-- Section 8 End -->  
+
+<!-- Section 9 Start -->
+<div id="section-9" style="padding-top: 124px;">
 <div id="exports_header" style="width: 100%; height: 15%;">
-    <h1> Brazil Exports and Deforestation </h1>
+    <h1> Brazil Exports</h1>
     <p>In this section, we would like to explore which products that are exported from Brazil may be associated with the deforestation of Brazilian rainforests. For this purpose, we are looking at the <a style="white-space:nowrap;" href="https://www.kaggle.com/mbogernetto/brazilian-amazon-rainforest-degradation?select=def_area_2004_2019.csv">deforestation rates from Kaggle</a> and the <a style="white-space:nowrap;" href="http://www.fao.org/faostat/en/#data/TP/metadata">export trade data from the Food and Agriculture Organization of the United Nations</a>. By comparing the trends in these data, we hope to provide guidance for experiments or regulations that are targeted at combatting the deforestation problem.</p>
-    <p>Our main goal in this section is to allow users to explore the data themselves and determine which products may be key factors in the deforestation problem. Generally, we think that products like soybeans, with a high amount of total exported tonnes between and a high correlation between annual export rates and deforestation rates are the most likely to have a high impact on the deforestation problem. These export products would be to the top and right of the first plot.</p>
+    <p>Our main goal in this section is to allow users to explore the data themselves and determine which products may be key factors in the deforestation problem. Generally, we think that products like bananas, with a high amount of total exported tonnes between and a high correlation between annual export rates and deforestation rates are the most likely to have a high impact on the deforestation problem. These export products would be to the top and right of the first plot.</p>
     <p>To help you navigate the data, we have included a multi-select for filtering the data points by product. You can hold Ctrl (Cmd on Mac) and click to select multiple export products at once. Additionally, all three plots display tooltips when you hover the cursor over specific data points.</p>
 </div>
-<div id="exports_details" style="width: 100%; height: 85vh; padding: 0; white-space: nowrap;">
-    <div id="export_selection" style="width: 15%; height: 100%; float: left;">
+<div id="exports_details" style="width: 100%; height: 120vh; padding: 0; white-space: nowrap;">
+    <div id="export_selection" style="width: 15%; height: 85vh; float: left; position: sticky; top: 150px;">
         <label for="export_items">Choose export items (Ctrl + Click: Multi):<br></label>
             <select name="export_items" id="export_items" multiple style="width: 100%; height: 90%; float: center;">
                 <option value="alfalfa meal and pellets">alfalfa meal and pellets</option>
@@ -417,24 +464,21 @@
     var corr_data,
         deforestation_data,
         export_data,
-        min_year,
-        max_year;
+        max_year = 2019,
+        min_year = 2004,
+        years = [];
+    
+    let year = min_year;
+    while (year <= max_year) {
+        years.push(year);
+        year = year + 1;
+    }
 
     d3.csv("./data/processed/brazil_corr_data.csv").then(function(data) {
         corr_data = data;
+        max_exported_tonnes = -Infinity;
         d3.csv("./data/processed/brazil_deforested_area.csv").then(function(data) {
             deforestation_data = data;
-            min_year = Infinity;
-            max_year = -Infinity;
-            for (let iii in deforestation_data) {
-                let year = deforestation_data[iii].year;
-                if (year > max_year) {
-                    max_year = year;
-                }
-                if (year < min_year) {
-                    min_year = year;
-                }
-            }
             plot_deforestation(deforestation_data);
             d3.csv("./data/processed/brazil_exports.csv").then(function(data) {
                 export_data = data;
@@ -445,6 +489,9 @@
 
     function set_selections(select_all=false) {
         if (select_all) {
+            $("#export_items > option").each(function () {
+                $(this).prop("selected", true);
+            })
             plot_correlations(corr_data);
             plot_exports(export_data);
         } else {
@@ -481,7 +528,7 @@
                 data: {values: data},
                 mark: "point",
                 encoding: {
-                    x: {field: "total_tonnes_exported", type: "quantitative", title: "Total Tonnes Exported", scale: {type: "log"}},
+                    x: {field: "total_tonnes_exported", type: "quantitative", title: "Total Tonnes Exported", scale: {type: "log", domain: [1, 900000000]}},
                     y: {field: "corr", type: "quantitative", title: "Annual Corr: Tonnes Exported and DF Area (km^2)", scale: {domain: [-1, 1]}},
                     color: {field: "item", type: "nominal", title: "Item"},
                     tooltip: [
@@ -506,12 +553,15 @@
                 $schema: "https://vega.github.io/schema/vega-lite/v5.json",
                 description: "Deforestation rates by year",
                 data: {values: data},
-                mark: "line",
+                mark: {
+                    type: "line",
+                    point: true
+                },
                 encoding: {
-                    x: {field: "year", type: "temporal", title: "Year", scale: {domain: [min_year, max_year]}, axis: {tickMinStep: 1}},
+                    x: {field: "year", type: "quantitative", title: "Year", scale: {domain: [min_year, max_year]}, axis: {values: years, format: "d"}},
                     y: {field: "deforested_area_km2", type: "quantitative", title: "Deforested Area (km^2)"},
                     tooltip: [
-                        {field: "year", type: "temporal", title: "Year", format: "%Y"},
+                        {field: "year", type: "ordinal", title: "Year"},
                         {field: "deforested_area_km2", type: "quantitative", title: "Deforested Area (km^2)", format: ".3s"}
                     ]
                 },
@@ -524,20 +574,24 @@
     }
 
     function plot_exports(data) {
+        console.log(data);
         var selector = "#exports",
             div = $(selector),
             spec = {
                 $schema: "https://vega.github.io/schema/vega-lite/v5.json",
                 description: "Tonnes exported by year and by item",
                 data: {values: data},
-                mark: "line",
+                mark: {
+                    type: "line",
+                    point: true
+                },
                 encoding: {
-                    x: {field: "year", type: "temporal", title: "Year", scale: {domain: [min_year, max_year]}, axis: {tickMinStep: 1}},
+                    x: {field: "year", type: "quantitative", title: "Year", scale: {domain: [min_year, max_year]}, axis: {values: years, format: "d"}},
                     y: {field: "tonnes_exported", type: "quantitative", title: "Tonnes Exported"},
                     color: {field: "item", type: "nominal", title: "Item"},
                     tooltip: [
                         {field: "item", type: "nominal", title: "Item"},
-                        {field: "year", type: "temporal", title: "Year", format: "%Y"},
+                        {field: "year", type: "ordinal", title: "Year"},
                         {field: "tonnes_exported", type: "quantitative", title: "Tonnes Exported", format: ".3s"}
                     ]
                 },
@@ -549,31 +603,13 @@
         vegaEmbed("#exports", spec);
     }
 </script>
-    </div>
+</div>
     
-<!-- Section 7 End-->
+<!-- Section 9 End-->
 
-<!-- Section 8 Start -->
-    <section id="section-8">
-            <div>
-      <h2> Brazil Soy Production </h2>
-          <p>Brazil is the world leading producer of Soybean with steady <br>
-            production increase in the past few decades. The world demand <br>
-            for Soybean is increasing leading to increase in deforestation.
-        </p>
-      </div>
-      
-<iframe width="50%" height="50%" frameborder="0"
-  src="https://observablehq.com/embed/bde65e52e9d64ac6?cells=brazil_soy_plot"></iframe>   
-    </section>
-<!-- Section 8 End -->   
+ 
   </main>
 </div>
-<!-- partial -->
-  
-
-</body>
-</html>
 <!-- partial -->
   
 </body>

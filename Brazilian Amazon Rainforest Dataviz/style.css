@@ -4,7 +4,7 @@
 
 body {
   font-family: Garamond , serif;
-  background: url(https://i.pinimg.com/originals/f5/a9/c9/f5a9c92d54fcb462b8eb58f44fb6c0ef.jpg) no-repeat center center fixed;
+  background: url(https://i.ibb.co/qkJ7KbR/rainforest-background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,6 +73,10 @@ background: rgba(255, 255, 255, 0.6);
 }
 
 #section-8 {
+background: rgba(255, 255, 255, 0.6);
+}
+
+#section-9 {
 background: rgba(255, 255, 255, 0.6);
 }
 
