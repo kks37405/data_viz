@@ -17,17 +17,23 @@ header {
   position: sticky;
   top: 0;
   height: 100px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(105,105,105, .98);
   z-index: 7;
+  color: white;
 }
 
 p {
+  font-size: 20px;
+  max-width: 700px;
+  min-width: 100px;
+}
+p1 {
   font-size: 20px;
 }
 
 nav a {
   padding: 0 16px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -75,8 +81,11 @@ background: rgba(255, 255, 255, 0.6);
 #section-8 {
 background: rgba(255, 255, 255, 0.6);
 }
-
 #section-9 {
+background: rgba(255, 255, 255, 0.6);
+}
+
+#section-10 {
 background: rgba(255, 255, 255, 0.6);
 }
 
@@ -84,3 +93,56 @@ div {
   padding-right: 30px;
   padding-left: 30px;
 }
+
+footer {
+  padding: 100px;
+  background: rgba(105,105,105, .98);
+  z-index: 7;
+  color: white;
+}
+
+#about-section p {
+    padding-left: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
